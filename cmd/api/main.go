@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/avukadin/goapi/internal/handlers"
 	"github.com/go-chi/chi"
+	"github.com/rdhmdhl/go-api-learning/internal/handlers"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 )

@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/avukadin/goapi/internal/middleware"
 	"github.com/go-chi/chi"
 	chimiddle "github.com/go-chi/chi/middleware"
+	"github.com/rdhmdhl/go-learning-api/internal/middleware"
 )
 
 // uppercase means that it can be imported
