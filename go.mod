@@ -3,7 +3,6 @@ module github.com/rdhmdhl/go-api-learning
 go 1.24.1
 
 require (
-	github.com/rdhmdhl/go-api-learning v0.1.0
 	github.com/go-chi/chi v1.5.5
 	github.com/sirupsen/logrus v1.9.3
 )
