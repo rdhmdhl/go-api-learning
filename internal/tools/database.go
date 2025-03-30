@@ -30,5 +30,5 @@ func NewDatabase() (*DatabaseInterface, error) {
 		return nil, err
 	}
 
-	return *database, nil
+	return &database, nil
 }

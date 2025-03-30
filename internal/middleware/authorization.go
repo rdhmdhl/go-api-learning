@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/rdhmdhl/go-api-learning/api"
-	"github.com/rdhmdhl/go-api-learning/api/tools"
+	"github.com/rdhmdhl/go-api-learning/internal/tools"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -13,7 +13,7 @@ var UnAuthorizedError = errors.New("Invalid username or token")
 
 func Authorization(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		var username string = r.URL.Query().Get("Username")
+		var username string = r.URL.Query().Get("username")
 		var token = r.Header.Get("Authorization")
 		var err error
 
