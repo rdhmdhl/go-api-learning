@@ -3,7 +3,7 @@ package handlers
 import (
 	"github.com/go-chi/chi"
 	chimiddle "github.com/go-chi/chi/middleware"
-	"github.com/rdhmdhl/go-learning-api/internal/middleware"
+	"github.com/rdhmdhl/go-api-learning/internal/middleware"
 )
 
 // uppercase means that it can be imported

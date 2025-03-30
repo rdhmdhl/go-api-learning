@@ -1,4 +1,4 @@
-module go-api-learning
+module github.com/rdhmdhl/go-api-learning
 
 go 1.24.1
 
